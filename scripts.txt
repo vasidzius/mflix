@@ -1,0 +1,5 @@
+run jupyter:
+
+conda create -n intro-to-mongodb
+activate intro-to-mongodb
+jupyter notebook
