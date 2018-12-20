@@ -6,7 +6,7 @@ import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 
 @Configuration
-public class ApplicationContextConfig extends AbstractMongoClientConfiguration {
+public class MflixApplicationContextConfig extends AbstractMongoClientConfiguration {
   @Override
   public MongoClient mongoClient() {
     return MongoClients.create("mongodb+srv://analytics:analytics-password@mflix-5zwen.mongodb.net/test?retryWrites=true");
